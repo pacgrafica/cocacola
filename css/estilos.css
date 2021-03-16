@@ -1,0 +1,234 @@
+.padre{
+    background-color: #0d0d0d;
+    width: 100%;
+    height: 908px;
+    position: relative;
+    z-index: 1;
+}
+.logococacola{
+    height: 908px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    bottom: 300px;
+}
+.cocacolatext{
+    height: 908px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 3 
+}
+.botella{
+    height: 908px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 4
+}
+.barralat{
+    height: 908px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 5
+}
+.boton1{
+    height: 908px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 6
+}
+.boton2{
+    height: 908px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 7
+}
+
+.tituloMenu{
+    font-style: normal;
+    font-size: 500%;
+}
+
+
+
+/*aca esta lo anterior*/
+.colorBoton{
+    background-color: pink
+}
+.altura{
+    height: 75px;
+    margin-top: 25px;
+}
+.redondo{
+    height: 75px;
+	width: 75px;
+	border-radius: 50%;
+}
+.altura2{
+    height: 300px;
+    margin-top: 10px;
+}
+.center{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+#triangulo{
+    width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 40px solid #391c51;
+	border-bottom: 50px solid transparent;
+    margin-top: 90px;
+}
+#triangulo1{
+    width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 40px solid #391c51;
+	border-bottom: 50px solid transparent;
+    margin-top: 90px;
+}
+.circle{
+    height: 135px;
+    width: 135px;
+    background-color: #391c51;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.circle2{
+    height: 135px;
+    width: 135px;
+    background-color: #391c51;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+#play{
+    width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-left: 100px solid white;
+	border-bottom: 60px solid transparent;
+    margin-top: 90px;
+}
+.altura3{
+    height: 300px;
+}
+.square{
+    height: 35px;
+    width: 77%;
+    background-color: white;
+    margin-top: 8%;
+}
+.square2{
+    height: 35px;
+    width: 77%;
+    background-color: white;
+    margin-top: 2%;
+}
+.square3{
+    height: 35px;
+    width: 77%;
+    background-color: white;
+    margin-top: 2%;
+}
+.square4{
+    height: 40px;
+    width: 20%;
+    background-color: #f2ea64;
+    margin-top: 10%;
+}
+.circulo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #391c51;
+    margin-top: 3%;
+    margin-left: 75%;
+}
+.circulo1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #391c51;
+    margin-top: 4%;
+    margin-left: 75%;
+}
+.circulo2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #391c51;
+    margin-top: 4%;
+    margin-left: 75%;
+}
+.circulo3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #391c51;
+    margin-top: 4%;
+    margin-left: 75%;
+}
+#h1{
+    display: block;
+    float: right;
+    font-size: 3vw;
+    font-weight: normal;
+    margin-top: -10.5%;
+    margin-right: 30%;
+}
+#h2{
+    display: block;
+    float: right;
+    font-size: 3vw;
+    font-weight: normal;
+    margin-top: -10.5%;
+    margin-right: 30%;
+}
+#h3{
+    display: block;
+    float: right;
+    font-size: 3vw;
+    font-weight: normal;
+    margin-top: -10.5%;
+    margin-right: 30%;
+}
+#h4{
+    display: block;
+    float: right;
+    font-size: 3vw;
+    font-weight: normal;
+    margin-top: -10.5%;
+    margin-right: 30%;
+}
+.altura4{
+    height: 100px;
+    margin-top: 10px;
+}
+.altura5{
+    height: 600px;
+    margin-top: 10px;
+}
+
+/*aca incorcoramos mediaqueries*/
+@media screen and (max-width: 767px) and (min-width: 56px){
+    .colorBoton{
+        display: none
+    }
+}
+@media screen and (max-width: 5000px) and (min-width: 768px){
+    .hamburguesa{
+        display: none
+    }
+}
